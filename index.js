@@ -54,7 +54,7 @@ async function getAccessTokenAndRefreshToken(code) {
     let data = {
         client_id: 'ba169269-a508-4a40-b2c5-1debd6dc82fb',
         redirect_uri: 'https://chainsama.herokuapp.com/',
-        client_secret: client_secret,
+        client_secret: 'LMc8Q~kAUEi1rHqex10S3PowlSK.oGM1_It2JaoS',
         code: code,
         grant_type: 'authorization_code'
     }
