@@ -52,8 +52,8 @@ async function getAccessTokenAndRefreshToken(code) {
         }
     }
     let data = {
-        client_id: ba169269-a508-4a40-b2c5-1debd6dc82fb,
-        redirect_uri: https://chainsama.herokuapp.com/,
+        client_id: 'ba169269-a508-4a40-b2c5-1debd6dc82fb',
+        redirect_uri: 'https://chainsama.herokuapp.com/',
         client_secret: client_secret,
         code: code,
         grant_type: 'authorization_code'
